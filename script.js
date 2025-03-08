@@ -12,6 +12,5 @@ document.getElementById("searchInput").addEventListener("input", function () {
     });
 });
 
-document.getElementById("menuBtn").addEventListener("click", function() {
-        document.getElementById("navLinks").classList.toggle("show");
-    });
+document.querySelector(".nav-toggle").onclick = () =>
+    document.querySelector(".nav-menu").classList.toggle("active");
