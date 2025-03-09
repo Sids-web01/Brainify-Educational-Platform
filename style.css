@@ -21,7 +21,7 @@ header {
     gap: 40rem;
     align-items: center;
 
-    height: 90px;
+    height: 70px;
     transition: .5s;
     position: fixed;
     z-index: 1;
@@ -267,7 +267,8 @@ li a:hover {
     font-size: 3.5rem;
     text-decoration: underline;
     text-decoration-color: cyan;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: -20px;
 }
 
 .about-container h1 span {
@@ -275,8 +276,8 @@ li a:hover {
 }
 
 .member {
-    width: 350px;
-    height: 420px;
+    width: 340px;
+    height: 390px;
     border: 5px solid cyan;
     border-radius: 10px;
     display: flex;
@@ -284,9 +285,10 @@ li a:hover {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     transition: .5s;
 }
+
 
 .member:hover {
     transform: scale(1.03);
@@ -294,6 +296,7 @@ li a:hover {
 
 .member p span {
     color: cyan;
+
 }
 
 .member p {
@@ -303,9 +306,12 @@ li a:hover {
 }
 
 .member img {
-    width: 280px;
+    width: 250px;
     border-radius: 10px;
-    height: 280px;
+    height: 250px;
+}
+#member7{
+    margin-bottom: 20px;
 }
 
 
@@ -317,13 +323,10 @@ li a:hover {
     width: 95%;
     margin: auto;
   
-    height: 76vh;
-    overflow-y: scroll;
+    height: 79vh;
+    overflow-y: auto;
 }
-.about-container{
-    width: 100%;
-    height: 100vh;
-}
+
 
 
 .contact-container {
@@ -332,6 +335,7 @@ li a:hover {
     align-items: center;
     height: 75vh;
 }
+
 
 .form {
     width: 500px;
@@ -457,8 +461,17 @@ li a:hover {
 
     .about-main {
         grid-template-columns: repeat(3, 1fr);
+        margin-left: 2rem;
+       
+        
+       
 
     }
+    section{
+        height: 100vh;
+    }
+    
+    
 
     .form {
         height: 500px;
@@ -477,6 +490,7 @@ li a:hover {
         margin-bottom: 10px;
         font-size: 2.5rem;
     }
+    
 
 
 }
@@ -699,7 +713,7 @@ li a:hover {
 
     .about-main {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 2rem;
+        margin-left: 3.8rem;
     }
 
     .course-card {
@@ -707,12 +721,13 @@ li a:hover {
     }
 
     .member {
-        width: 90%;
+        width: 80%;
+
     }
 
     .member img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .form {
@@ -765,7 +780,12 @@ li a:hover {
         width: 310px;
     }
     .member img{
-        width: 270px;
+        width: 230px;
+        height: 230px;
+    }
+    .about-main{
+        margin-left: 3rem;
+        
     }
 
 }
@@ -803,7 +823,7 @@ li a:hover {
     }
 
     .member img {
-        width: 270px;
+        width: 220px;
     }
 
     .about-container h1 {
@@ -834,8 +854,8 @@ li a:hover {
     }
 
     .member img {
-        width: 230px;
-        height: 270px;
+        width: 200px;
+        height: 210px;
     }
 
     .about-main {
@@ -844,5 +864,8 @@ li a:hover {
 
     .form {
         width: 270px;
+    }
+    .about-main{
+        margin-left: 2rem;
     }
 }
