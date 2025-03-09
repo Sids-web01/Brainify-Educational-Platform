@@ -307,9 +307,6 @@ li a:hover {
     height: 280px;
 }
 
-#about {
-    overflow-y: auto;
-}
 
 .about-main {
     display: grid;
@@ -318,6 +315,9 @@ li a:hover {
 
     width: 95%;
     margin: auto;
+  
+    height: 75vh;
+    overflow-y: scroll;
 }
 
 
