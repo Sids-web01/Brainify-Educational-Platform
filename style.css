@@ -276,7 +276,7 @@ li a:hover {
 
 .member {
     width: 350px;
-    height: 430px;
+    height: 420px;
     border: 5px solid cyan;
     border-radius: 10px;
     display: flex;
@@ -297,8 +297,9 @@ li a:hover {
 }
 
 .member p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .member img {
@@ -316,7 +317,7 @@ li a:hover {
     width: 95%;
     margin: auto;
   
-    height: 75vh;
+    height: 76vh;
     overflow-y: scroll;
 }
 .about-container{
