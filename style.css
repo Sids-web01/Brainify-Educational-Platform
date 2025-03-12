@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    scroll-behavior: smooth;
+ 
 }
 
 body {
@@ -428,6 +428,126 @@ li a:hover {
     display: none;
 }
 
+/* notes section*/
+.statistics-container h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+}
+.stats-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.stats-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+   
+}
+.stats-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.research-container h1{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+
+}.research-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.research-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 
+.research-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.operating-container h1{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+
+}.operating-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.operating-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 
+.operating-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+
+
+.data-container h1{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+
+}.data-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.data-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 
+.data-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+
+.net-container h1{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+
+}.net-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.net-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 
+.net-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+
+
 
 
 /* media queries for my website*/
@@ -516,8 +636,11 @@ li a:hover {
 
     }
 
-    .member {
+    .member{
         width: 300px;
+    }
+    header{
+        gap: 7rem;
     }
 
 
@@ -542,6 +665,9 @@ li a:hover {
 
     .form {
         width: 400px;
+    }
+    header{
+        gap: 5em;
     }
 
     .member {
