@@ -440,6 +440,7 @@ li a:hover {
     margin: auto;
     overflow-y: auto;
     height: 78vh;
+    
 }
 .stats-notes p{
     font-size: 1.2rem;
@@ -452,6 +453,18 @@ li a:hover {
     font-size: 1.4rem;
     text-decoration: underline;
 }
+.stats-notes p b{
+    font-size: 1.4rem;
+}
+.stats-notes h2{
+    margin-bottom: 5rem;
+}
+.stats-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
+
 .research-container h1{
     text-align: center;
     font-size: 2.2rem;
@@ -474,6 +487,19 @@ li a:hover {
     font-size: 1.4rem;
     text-decoration: underline;
 }
+.research-notes p b{
+    font-size: 1.4rem;
+}
+.research-notes h2{
+    margin-bottom: 5rem;
+}
+.research-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
+
+
 .operating-container h1{
     text-align: center;
     font-size: 2.2rem;
@@ -496,7 +522,17 @@ li a:hover {
     font-size: 1.4rem;
     text-decoration: underline;
 }
-
+.operating-notes h2{
+    margin-bottom: 5rem;
+}
+.operating-notes p b{
+    font-size: 1.4rem;
+}
+.opearating-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
 
 
 .data-container h1{
@@ -521,7 +557,17 @@ li a:hover {
     font-size: 1.4rem;
     text-decoration: underline;
 }
-
+.data-notes p b{
+    font-size: 1.4rem;
+}
+.data-notes h2{
+    margin-bottom: 5rem;
+}
+.data-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
 
 .net-container h1{
     text-align: center;
@@ -545,6 +591,125 @@ li a:hover {
     font-size: 1.4rem;
     text-decoration: underline;
 }
+.net-notes p b{
+    font-size: 1.4rem;
+}
+.net-notes h2{
+    margin-bottom: 5rem;
+}
+
+.net-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
+
+.web-container h1{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+
+}.web-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.web-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 
+.web-notes p b{
+    font-size: 1.4rem;
+}
+.web-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.web-notes h2{
+    margin-bottom: 5rem;
+}
+.web-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
+
+
+
+.media-container h1{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+
+}.media-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.media-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 
+.media-notes p b{
+    font-size: 1.4rem;
+}
+.media-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.media-notes h2{
+    margin-bottom: 5rem;
+}
+
+.media-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
+
+
+.cpp-container h1{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+
+}.cpp-notes{
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    height: 78vh;
+}
+.cpp-notes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 
+.cpp-notes p b{
+    font-size: 1.4rem;
+}
+.cpp-notes p span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.cpp-notes h2{
+    margin-bottom: 5rem;
+}
+.cpp-notes h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: cyan;
+}
+
 
 
 
@@ -559,6 +724,10 @@ li a:hover {
 
     li {
         font-size: 1.6rem;
+    }
+    .about-container h1{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
 
     header {
@@ -963,6 +1132,31 @@ li a:hover {
     .left-contact p {
         font-size: 1.5rem;
     }
+}
+@media screen and (max-width:310px) {
+    .welcome-message h1{
+        font-size: 1.8rem;
+    }
+    .welcome-message p{
+        max-width: 280px;
+        text-align: center;
+    }
+    .welcome-message button{
+        width: 150px;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    .logo{
+        font-size: 1.7rem;
+    }
+    .nav-toggle{
+        width: 50px;
+        height: 40px;
+    }
+   
+
+
+
 }
 
 @media screen and (max-width:300px) {
