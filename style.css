@@ -311,7 +311,7 @@ li a:hover {
     height: 250px;
 }
 #member7{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -434,6 +434,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 }
 .stats-notes{
     width: 80%;
@@ -470,6 +471,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 
 }.research-notes{
     width: 80%;
@@ -505,6 +507,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 
 }.operating-notes{
     width: 80%;
@@ -528,7 +531,7 @@ li a:hover {
 .operating-notes p b{
     font-size: 1.4rem;
 }
-.opearating-notes h3{
+.operating-notes h3{
     font-size: 1.4rem;
     font-weight: bold;
     color: cyan;
@@ -540,6 +543,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 
 }.data-notes{
     width: 80%;
@@ -574,6 +578,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 
 }.net-notes{
     width: 80%;
@@ -609,6 +614,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 
 }.web-notes{
     width: 80%;
@@ -645,6 +651,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 
 }.media-notes{
     width: 80%;
@@ -681,6 +688,7 @@ li a:hover {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: cyan;
+    margin-bottom: 10px;
 
 }.cpp-notes{
     width: 80%;
