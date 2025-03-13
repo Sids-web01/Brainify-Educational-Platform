@@ -1143,7 +1143,7 @@ li a:hover {
 }
 @media screen and (max-width:310px) {
     .welcome-message h1{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .welcome-message p{
         max-width: 280px;
